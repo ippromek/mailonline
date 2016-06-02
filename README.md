@@ -4,7 +4,7 @@ Project goal:
 	2) Support tf-idf ranking query.
 
 How to run:
-scala -classpath commons-io-2.5.jar MainQuery.scala
+"scala -classpath commons-io-2.5.jar MainQuery.scala"
 Please enter the path to input folder: C:\alt.atheism
 Please enter the type of your query , TF-IDF or Boolean : Boolean
 Please enter your query (for example 'science or religion': science or religion
