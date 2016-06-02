@@ -19,6 +19,6 @@ Possible improvements:
 	val Conf = new SparkConf().setAppName("MainQuery_Spark").setMaster("local")
     val sc = new SparkContext(Conf)
 	//      Read all the files in the path folder
-    val wholeText = sc.wholeTextFiles(path_to_files+"/*")
+     val wholeText = sc.wholeTextFiles(path_to_files+"/*")
 
 
